@@ -18,7 +18,7 @@ local OrionLib = {
 			Second = Color3.fromRGB(96, 6, 186),
 			Stroke = Color3.fromRGB(96, 6, 186),
 			Divider = Color3.fromRGB(96, 6, 186),
-			Text = Color3.fromRGB(240, 240, 240),
+			Text = Color3.fromRGB(13, 13, 13),
 			TextDark = Color3.fromRGB(150, 150, 150)
 		}
 	},
@@ -47,7 +47,7 @@ local function GetIcon(IconName)
 end   
 
 local Orion = Instance.new("ScreenGui")
-Orion.Name = "Orion"
+Orion.Name = "FerestZ"
 if syn then
 	syn.protect_gui(Orion)
 	Orion.Parent = game.CoreGui
